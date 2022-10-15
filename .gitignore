@@ -160,3 +160,7 @@ cython_debug/
 #.idea/
 
 
+#	Vim swap files
+*.swp
+*.swo
+
