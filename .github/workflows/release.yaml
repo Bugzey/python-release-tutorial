@@ -17,7 +17,7 @@ jobs:
           python-version: "3.10"
 
       - name: Checkout
-        uses:actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
 
       - name Install build dependencies
         run: python3 -m pip install -r requirements-build.txt
