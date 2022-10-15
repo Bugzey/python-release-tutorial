@@ -1,0 +1,18 @@
+name: Build and publish to test.pypi
+
+#   WHen to run the pipeline
+on:
+  push:
+    tag:
+      - v*
+
+#   Collection of actions, each of which contains steps, sub-names can be anything
+jobs:
+  build:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@c4e89fac7e8767b327bbad6cb4d859eda999cf08
+        with:
+          python-version: "3.10"
+

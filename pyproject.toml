@@ -11,11 +11,11 @@ build-backend = "hatchling.build"
 include = [ "/src", "/requirements-build.txt" ]
 
 [project]
-name = "example_package_YOUR_USERNAME_HERE"
+name = "example_package_openfest_2022_bugzey"
 version = "0.0.1"
-description = "Package created during OSS Europe 2022 tutorial"
+description = "Package created during OpenFest 2022 tutorial"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
